@@ -6,7 +6,7 @@ import me.csehviktor.Constants.CLIENT
 import me.csehviktor.Constants.CURRENT_TRACK
 import me.csehviktor.data.model.CurrentTrackRequest
 import me.csehviktor.data.model.CurrentTrackResponse
-import me.csehviktor.plugins.property.parseTrack
+import me.csehviktor.plugins.utils.parseTrack
 
 class Track {
     suspend fun getCurrentTrack(): CurrentTrackResponse? {

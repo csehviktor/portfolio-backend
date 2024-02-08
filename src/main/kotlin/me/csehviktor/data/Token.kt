@@ -9,8 +9,8 @@ import me.csehviktor.Constants.Environmental.CLIENT_SECRET
 import me.csehviktor.Constants.Environmental.REFRESH_TOKEN
 import me.csehviktor.data.model.AccessToken
 import me.csehviktor.data.model.AccessTokenRequest
-import me.csehviktor.plugins.property.allStringsValid
-import me.csehviktor.plugins.property.parseToken
+import me.csehviktor.plugins.utils.allStringsValid
+import me.csehviktor.plugins.utils.parseToken
 
 class Token {
     fun buildToken(client: HttpClient): Unit = runBlocking {

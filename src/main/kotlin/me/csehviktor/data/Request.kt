@@ -2,7 +2,7 @@ package me.csehviktor.data
 
 import io.ktor.http.*
 import io.ktor.util.*
-import me.csehviktor.plugins.property.findFieldProperties
+import me.csehviktor.plugins.utils.findFieldProperties
 
 interface Request {
     fun build(builder: StringValuesBuilder): StringValuesBuilder {

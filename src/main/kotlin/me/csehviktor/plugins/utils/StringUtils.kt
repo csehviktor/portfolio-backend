@@ -1,4 +1,4 @@
-package me.csehviktor.plugins.property
+package me.csehviktor.plugins.utils
 
 import kotlinx.serialization.SerialName
 import me.csehviktor.data.Request

@@ -1,4 +1,4 @@
-package me.csehviktor.plugins.property
+package me.csehviktor.plugins.utils
 
 import io.ktor.client.statement.*
 import kotlinx.serialization.json.Json
