@@ -14,8 +14,6 @@ fun Application.module() = runBlocking {
     Constants.Environmental.CLIENT_SECRET = System.getenv("CLIENT_SECRET")
     Constants.Environmental.REFRESH_TOKEN = System.getenv("REFRESH_TOKEN")
 
-    println(System.getenv())
-
     configureSerialization()
     configureSockets()
     configureRouting()
