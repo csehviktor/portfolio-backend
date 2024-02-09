@@ -11,7 +11,6 @@ interface Request {
         properties.forEach {
             builder.append(it.key, it.value)
         }
-
         return builder
     }
 
