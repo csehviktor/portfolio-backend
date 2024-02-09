@@ -25,7 +25,7 @@ class Track {
 
             CURRENT_TRACK = CurrentTrackResponse(null, false)
 
-            if(response.status != HttpStatusCode.NoContent) {
+            if(response.status !== HttpStatusCode.NoContent) {
                 val parsedResponse = response.parseTrack()
 
                 CURRENT_TRACK = CurrentTrackResponse(
